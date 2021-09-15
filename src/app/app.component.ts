@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'animation';
+  public showAnimation: boolean = false;
+
+  showAchievment() {
+    this.showAnimation = true;
+  }
 }
